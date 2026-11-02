@@ -168,8 +168,6 @@ a4_lg_error = distance_error(a4_lg_mitt, a4_lg_std)
 a4_area_error = np.sqrt((a4_lg * a4_br_error)** 2 + (a4_br * a4_lg_error)** 2)
 
 print(f"Fläche mit fortgepflanzten Standardabweichungen: ({a_gemessen:.2f} ± {a4_area_error:.2f}) cm²")
-print("\nHinweis: Die Fehlerangaben berücksichtigen nicht alle systematischen Fehler.")
-print("=" * 68)
 
 
 
